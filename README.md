@@ -41,10 +41,14 @@ Create a `.env` file in the project root and add the following:
 ## Running the Application
 
 1. Start the FastAPI server:
+```code
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 2. Run the Gradio interface:
+```code
 python gradio_ui.py
+```
 
 ## Business Problem Statement
 
